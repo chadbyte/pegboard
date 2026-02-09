@@ -31,7 +31,7 @@ Pegboard treats AI agents like Unix tools — each one does **one thing**, with 
 ### macOS (Apple Silicon)
 
 ```bash
-curl -fsSL https://pegboard.so/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/chadbyte/pegboard/main/install.sh | bash
 ```
 
 Or download directly from [Releases](https://github.com/chadbyte/pegboard/releases).

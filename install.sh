@@ -28,7 +28,7 @@ fi
 # Get latest release download URL
 info "Fetching latest release..."
 DOWNLOAD_URL=$(curl -fsSL "https://api.github.com/repos/${REPO}/releases/latest" \
-  | grep "browser_download_url.*mac-arm64.*\.zip" \
+  | grep "browser_download_url.*arm64.*mac.*\.zip" \
   | head -1 \
   | cut -d '"' -f 4)
 
